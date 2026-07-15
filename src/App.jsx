@@ -1,4 +1,4 @@
-import MainLayout from "./layout/MainLayoutt";
+import MainLayout from "./layout/MainLayout";
 import Index from "./Index";
 import {
   createBrowserRouter,
