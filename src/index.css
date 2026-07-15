@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+/* --- Premium Notification Drop & Expand Animation --- */
+@keyframes dropAndExpand {
+  /* 0%: Start high up as a small red dot */
+  0% {
+    transform: translateY(-100px) scale(0.3);
+    width: 48px;
+    height: 48px;
+    background-color: var(--color-red-500);
+    border-color: transparent;
+    box-shadow: 0 0 20px rgba(239, 68, 68, 0.8);
+  }
+  /* 30%: The dot drops down and hits its destination */
+  30% {
+    transform: translateY(0) scale(1);
+    width: 48px;
+    height: 48px;
+    background-color: var(--color-red-500);
+    border-color: transparent;
+    box-shadow: 0 0 25px rgba(239, 68, 68, 0.8);
+  }
+  /* 38%: Subtle squash bounce effect */
+  38% {
+    transform: translateY(4px) scaleX(1.2) scaleY(0.8);
+    width: 48px;
+    height: 48px;
+    background-color: var(--color-red-500);
+  }
+  /* 45%: Return to normal dot shape before stretching */
+  45% {
+    transform: translateY(0) scale(1);
+    width: 48px;
+    height: 48px;
+    background-color: var(--color-red-500);
+  }
+  /* 70%: Stretch horizontally into the full width */
+  70% {
+    transform: translateY(0);
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-red-500);
+    border-color: transparent;
+    box-shadow: 0 0 30px rgba(239, 68, 68, 0.6);
+  }
+  /* 100%: Smoothly blend into the premium glass container */
+  100% {
+    transform: translateY(0);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 23, 42, 0.75); /* bg-slate-950/75 */
+    border-color: rgba(255, 255, 255, 0.05); /* border-white/5 */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+}
+
+/* --- Content Fade-In Animation --- */
+@keyframes fadeInContent {
+  0%, 75% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Custom classes helper */
+.animate-nav-container {
+  animation: dropAndExpand 1.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.animate-nav-content {
+  animation: fadeInContent 2.1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 80px; /* Adjust this value based on your Navbar's height */
+}
