@@ -25,30 +25,29 @@ const Project = () => {
     },
     {
       id: "03",
-      name: "ChatBox",
+      name: "ExamNest",
       image: Project3,
-      link: "https://chat-box-omega-jet.vercel.app/",
-      tags: ["React Native", "Socket.io", "Node.js", "Express"],
-      desc: "An ultra-responsive, real-time messaging workspace bridging global communities. Engineered with low-latency WebSockets, active room state management, typing indicators, and a clean interface for instant global connection.",
+      link: "https://exam-nest-kiihi29ao-dev-nados-projects.vercel.app/",
+      tags: ["React", "Node.js", "Express", "MongoDB"],
+      desc: "A modern CBT examination and exam-preparation platform built to help students practice, track performance, and prepare for competitive examinations with a structured and intuitive learning experience.",
     },
     {
       id: "04",
+      name: "NielJoe",
+      image: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1200&q=80",
+      link: "https://nieljoe.com/",
+      tags: ["React", "Node.js", "MongoDB", "Cloudinary"],
+      desc: "A premium luxury wristwatch e-commerce experience focused on elegant product presentation, smooth interactions, secure checkout flows, and a refined high-end shopping experience.",
+    },
+    {
+      id: "05",
       name: "SwiftLogix",
       image: Project4,
       link: "https://swiftlogix-plc.vercel.app/",
       tags: ["React", "Vite", "Tailwind CSS", "AOS"],
       desc: "A modern, high-performance logistics landing architecture. Built to display complex supply chain pipelines with high visual clarity, custom delivery trackers, interactive contact funnels, and optimized static rendering.",
     },
-    {
-      id: "05",
-      name: "IRONGYM",
-      image: Project5,
-      link: "https://irongym-rose.vercel.app/",
-      tags: ["React", "CSS3", "Tailwind CSS", "Framer Motion"],
-      desc: "An elite, energetic physical fitness landing portal. Features interactive class scheduling widgets, membership booking engines, premium trainer profiles, and smooth parallax effects designed to maximize user conversion.",
-    },
   ];
-
   return (
     <section
       id="projects"
