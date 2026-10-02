@@ -16,14 +16,6 @@ const Project = () => {
     },
     {
       id: "02",
-      name: "Rivo e-Commerce",
-      image: Project2,
-      link: "https://rivocommerce.netlify.app/",
-      tags: ["React", "TypeScript", "Tailwind CSS", "Redux"],
-      desc: "A boutique, high-end fashion e-commerce storefront. Features lightning-fast product filtering, reactive cart states, persistent user sessions, and sleek transitions tailored for a premium luxury retail experience.",
-    },
-    {
-      id: "03",
       name: "ExamNest",
       image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=85",
       link: "https://exam-nest-kiihi29ao-dev-nados-projects.vercel.app/",
@@ -31,20 +23,28 @@ const Project = () => {
       desc: "A modern CBT examination and exam-preparation platform built to help students practice, track performance, and prepare for competitive examinations with a structured and intuitive learning experience.",
     },
     {
-      id: "04",
+      id: "03",
       name: "NielJoe",
       image: "https://images.unsplash.com/photo-1774653273863-a689ee748eee?auto=format&fit=crop&fm=jpg&q=85&w=1600",
       link: "https://nieljoe.com/",
       tags: ["React", "Node.js", "MongoDB", "Cloudinary"],
-      desc: "A premium luxury wristwatch e-commerce experience focused on elegant product presentation, smooth interactions, secure checkout flows, and a refined high-end shopping experience.",
+      desc: "A premium online store for NielJoe products, combining luxury wristwatches with carefully curated fashion and lifestyle accessories in a refined e-commerce experience.",
     },
     {
-      id: "05",
+      id: "04",
       name: "SwiftLogix",
       image: Project4,
       link: "https://swiftlogix-plc.vercel.app/",
       tags: ["React", "Vite", "Tailwind CSS", "AOS"],
       desc: "A modern, high-performance logistics landing architecture. Built to display complex supply chain pipelines with high visual clarity, custom delivery trackers, interactive contact funnels, and optimized static rendering.",
+    },
+    {
+      id: "05",
+      name: "Rivo e-Commerce",
+      image: Project2,
+      link: "https://rivocommerce.netlify.app/",
+      tags: ["React", "TypeScript", "Tailwind CSS", "Redux"],
+      desc: "A boutique, high-end fashion e-commerce storefront. Features lightning-fast product filtering, reactive cart states, persistent user sessions, and sleek transitions tailored for a premium luxury retail experience.",
     },
     {
       id: "06",
@@ -54,7 +54,7 @@ const Project = () => {
       tags: ["React", "CSS3", "Tailwind CSS", "Framer Motion"],
       desc: "An elite, energetic physical fitness landing portal. Features interactive class scheduling widgets, membership booking engines, premium trainer profiles, and smooth parallax effects designed to maximize user conversion.",
     },
-  ];  return (
+  ]; return (
     <section
       id="projects"
       className="relative w-full py-20 px-4 sm:px-6 md:px-16 overflow-hidden"
