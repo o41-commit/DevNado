@@ -1,7 +1,6 @@
 import { FaArrowUpRightFromSquare, FaGithub } from "react-icons/fa6";
 import Project1 from "../images/Project 1.jpeg";
 import Project2 from "../images/Project 2.jpeg";
-import Project3 from "../images/Project 3.jpeg";
 import Project4 from "../images/Project 4.jpeg";
 import Project5 from "../images/Project 5.jpeg";
 
@@ -26,7 +25,7 @@ const Project = () => {
     {
       id: "03",
       name: "ExamNest",
-      image: Project3,
+      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=85",
       link: "https://exam-nest-kiihi29ao-dev-nados-projects.vercel.app/",
       tags: ["React", "Node.js", "Express", "MongoDB"],
       desc: "A modern CBT examination and exam-preparation platform built to help students practice, track performance, and prepare for competitive examinations with a structured and intuitive learning experience.",
@@ -34,7 +33,7 @@ const Project = () => {
     {
       id: "04",
       name: "NielJoe",
-      image: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1200&q=80",
+      image: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1200&q=85",
       link: "https://nieljoe.com/",
       tags: ["React", "Node.js", "MongoDB", "Cloudinary"],
       desc: "A premium luxury wristwatch e-commerce experience focused on elegant product presentation, smooth interactions, secure checkout flows, and a refined high-end shopping experience.",
@@ -47,8 +46,15 @@ const Project = () => {
       tags: ["React", "Vite", "Tailwind CSS", "AOS"],
       desc: "A modern, high-performance logistics landing architecture. Built to display complex supply chain pipelines with high visual clarity, custom delivery trackers, interactive contact funnels, and optimized static rendering.",
     },
-  ];
-  return (
+    {
+      id: "06",
+      name: "IRONGYM",
+      image: Project5,
+      link: "https://irongym-rose.vercel.app/",
+      tags: ["React", "CSS3", "Tailwind CSS", "Framer Motion"],
+      desc: "An elite, energetic physical fitness landing portal. Features interactive class scheduling widgets, membership booking engines, premium trainer profiles, and smooth parallax effects designed to maximize user conversion.",
+    },
+  ];  return (
     <section
       id="projects"
       className="relative w-full py-20 px-4 sm:px-6 md:px-16 overflow-hidden"
