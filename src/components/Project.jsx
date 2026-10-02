@@ -33,7 +33,7 @@ const Project = () => {
     {
       id: "04",
       name: "NielJoe",
-      image: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1200&q=85",
+      image: "https://images.unsplash.com/photo-1774653273863-a689ee748eee?auto=format&fit=crop&fm=jpg&q=85&w=1600",
       link: "https://nieljoe.com/",
       tags: ["React", "Node.js", "MongoDB", "Cloudinary"],
       desc: "A premium luxury wristwatch e-commerce experience focused on elegant product presentation, smooth interactions, secure checkout flows, and a refined high-end shopping experience.",
