@@ -18,7 +18,7 @@ const Project = () => {
       id: "02",
       name: "ExamNest",
       image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=85",
-      link: "https://exam-nest-kiihi29ao-dev-nados-projects.vercel.app/",
+      link: "https://exam-nest.vercel.app/",
       tags: ["React", "Node.js", "Express", "MongoDB"],
       desc: "A modern CBT examination and exam-preparation platform built to help students practice, track performance, and prepare for competitive examinations with a structured and intuitive learning experience.",
     },
