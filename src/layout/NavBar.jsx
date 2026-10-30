@@ -12,7 +12,7 @@ const NavBar = () => {
   ];
 
   // URL-encoded custom message for WhatsApp API
-  const whatsappUrl = "https://wa.me/15488256699?text=Hello%20DevNado%2C%20I%20saw%20your%20portfolio%20and%20would%20love%20to%20work%20with%20you%21";
+  const whatsappUrl = "https://wa.me/2349068994360?text=Hello%20DevNado%2C%20I%20saw%20your%20portfolio%20and%20would%20love%20to%20work%20with%20you%21";
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 mx-auto max-w-7xl px-4 py-3 font-sans">
