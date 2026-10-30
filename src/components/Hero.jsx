@@ -46,7 +46,7 @@ const Hero = () => {
     },
     {
       icon: <FaWhatsapp size={18} />,
-      href: "https://wa.me/15488256699",
+      href: "https://wa.me/2349068994360",
       label: "WhatsApp",
     },
     {
